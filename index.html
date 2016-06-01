@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Eagle Eye</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/eagleeye.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Eagle Eye</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick = $("#menu-close").click(); >About</a>
+            </li>
+            <li>
+                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Protect yourself</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>EAGLE EYE</h1>
+            <h4>The year is 2016 and internet privacy is a rising issue. How vulnerable you are to tracking?</h4>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Who are you?</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2></h2>
+                    <p class="lead">Surveillance is everywhere yet nowhere, people are oblivious to what is right in front of them. This website aims to show you what can be collected about you through your own user input. 
+					A small series of interaction tests will take place and the data collected will be interpreted back to the user. Revealing how companys moniter you online
+					and collect and collate information about you and your online habits.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+               
+<div class="info">Your Fingerprint:</div><div id="fingerprint" class="fp"></div>
+ <hr class="small">
+<div class="info"></div>
+<div class="info">What browser are you using?</div><div id="browser" class="fp"></div>
+<br/>
+<div class="info">Flash:</div><div id="flash" class="fp"></div>
+<br/>
+<div class="info">Internet Connection:</div><div id="connection" class="fp"></div>
+<br/>
+<div class="info">Cookies enabled?:</div><div id="cookie" class="fp"></div>
+<br/>
+<div class="info">Screen display:</div><div id="display" class="fp"></div>
+<br/>
+<div class="info">Font Smoothing:</div><div id="fontsmoothing" class="fp"></div>
+<br/>
+<div class="info">Fonts:</div><div id="fonts" class="fp"></div>
+<br/>
+<div class="info">Where did you come from?:</div><div id="formfields" class="fp"></div>
+<br/>
+<div class="info">Java:</div><div id="java" class="fp"></div>
+<br/>
+<div class="info">Language:</div><div id="language" class="fp"></div>
+<br/>
+<div class="info">OS:</div><div id="os" class="fp"></div>
+<br/>
+<div class="info">Time Zone:</div><div id="timezone" class="fp"></div>
+<br/>
+<div class="info">Touch display:</div><div id="touch" class="fp"></div>
+<br/>
+<div class="info">Plug Ins:</div><div id="plugins" class="fp"></div>
+<br/>
+<div class="info">Computer info:</div><div id="useragent" class="fp"></div>
+
+
+                    <hr class="small">
+           
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h2>"THE DISAPPEARANCE OF DISAPPEARANCE"</h2>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Protect yourself</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/magnify.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/eye.png">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div> -->
+          
+                    </div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+				</br> </br> </br>
+                    <h4>Modern day surveillance is a tricky issue, the reason for this is the thin line between care and control. how much is too much surveillance?
+				this mass data collection does not just collate information on what you do, instead it has broadened out to understand how you feel, your opinions and your moods.
+				All of these factors are key for when shopping/ activities done throughout your day and it is all for  'purposes of influence, management, protection or direction'</h4>
+				</br>
+				 <h4> Fingerprinting is a collection of information about a device for identification purposes.
+				 Client side scripting allows for very rich fingerprints. Through the use of JavaScript, fingerprinting can be used in a number of good and bad ways. For example,
+				 it can be used to combat fraud by checking the user is actually the real user not someone else. But it can also track users across websites without you knowing it,
+				 studying and monitoring your habits, creating this online persona of you. </h4>
+				 </br>
+				 <h4>Browser fingerprinting happens by visiting a web site, that site can generate a fingerprint, a unique identification to your computer. The fingerprint can then
+				 be sent to their websites server, and you can be tracked. No cookies required, no hacking, no “Do not track me” setting can make a difference just browsing the web will do it. </h4>
+				 </br>
+				 <h4>Even if you prevent sites from storing cookies on your computer, sites and ads can still track you. In fact, pretty much anybody can track you. In fact, you can
+				 pretty much guarantee right now on the web browsers are using fingerprinting to track you. Even if you disable Flash, you can still be tracked. If you disable JavaScript,
+				 it gets a lot harder. Most of the well-known techniques of browser fingerprinting are done via JavaScript however practically every web site on the planet requires JavaScript
+				 these days. JS is what makes Google Maps work, and Facebook, and Gmail, and everything else. Turn off JavaScript, and you’re pretty much browsing in the stone age. In short,
+				 you CAN’T turn off JS if you need to use anything on the internet.  </h4>
+				 </br>
+				 <h4>As you may notice not all of the information above is technically useful for uniquely identifying someone (this is intentional), but it could be. It’s fairly basic info,
+				 but it’s great food for thought. There is a LOT more. When you put it all together, then it’s easy to see that with browser fingerprinting, you are absolutely unique and trackable on the internet. </h4>
+				 </br>
+				 <h4>It’s not the significance of ONE source of information from your browser that is valuable; it’s the combination of the bits of data. </h4>
+                    <!--<a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <!--<section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.co.nz/maps/place/Victoria+University+of+Wellington,+Faculty+of+Architecture+and+Design/@-41.2965484,174.7754241,17.5z/data=!4m5!3m4!1s0x0000000000000000:0xb62ac32a2a308cf7!8m2!3d-41.2955022!4d174.7756141?hl=en"></a>
+        </small>
+        </iframe>
+    </section> -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Eagle Eye</strong>
+                    </h4>
+                    <p><br></p>
+                   <!-- <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i></li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>
+                        </li>
+                    </ul>
+                    <br>
+                    <!--<ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li> -->
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/script.js"> </script>
+ 
+</body>
+
+</html>
